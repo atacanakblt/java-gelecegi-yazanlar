@@ -1,0 +1,25 @@
+package memberVariables;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Bicycle bicycle = new Bicycle();
+		bicycle.speed = 10;
+		bicycle.gear = 18;
+		Bicycle.numberOfBicycle = 1;
+		bicycle.printInformation();
+		
+		System.out.println("----------------------------");
+
+		
+		Bicycle bicycle2 = new Bicycle();
+		bicycle2.speed = 25;
+		bicycle2.gear = 21;
+		Bicycle.numberOfBicycle = 2;
+		bicycle2.printInformation();
+
+
+	}
+
+}

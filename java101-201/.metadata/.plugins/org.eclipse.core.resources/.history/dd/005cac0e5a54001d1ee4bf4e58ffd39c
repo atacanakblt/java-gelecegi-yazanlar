@@ -1,0 +1,9 @@
+package polymorphism3;
+
+public class Officer extends Employee{
+	
+	public Officer(String i, String g, int m) {
+		super(i,g,m)
+	}
+
+}

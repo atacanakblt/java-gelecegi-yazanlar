@@ -1,0 +1,12 @@
+package methodOverloadingLab2;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Kisi kisi1 = new Kisi("1241241241","Mehmet");
+	 	System.out.println(kisi1.toString());
+				
+	}
+
+}

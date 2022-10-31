@@ -1,0 +1,21 @@
+package classesLab;
+
+public class Pencil {
+
+	String brand;
+	String type;
+	boolean refillable;
+	boolean erasable; 
+	
+	void yaz() {
+		
+	}
+	
+	void refill() {
+		
+	}
+	
+	void delete() {
+		
+	}
+}

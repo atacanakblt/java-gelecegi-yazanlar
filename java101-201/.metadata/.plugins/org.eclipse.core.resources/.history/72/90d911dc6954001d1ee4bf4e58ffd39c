@@ -1,0 +1,10 @@
+package labSuperFinalThis;
+
+public class YukTasimaAraci extends Arac {
+	
+	public YukTasimaAraci(String plaka, String marka) {
+		super(plaka,marka);
+	}
+
+	
+}

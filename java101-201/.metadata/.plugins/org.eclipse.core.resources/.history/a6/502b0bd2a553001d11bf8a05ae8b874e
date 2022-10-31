@@ -1,0 +1,16 @@
+package classesLab;
+
+public class Telephone {
+
+	TelephoneType type;
+	String brand;
+	String model;
+	boolean wifi;
+	boolean mobileData;
+
+	void call(String phoneNumber) {
+		System.out.println(phoneNumber);
+
+		
+	}
+}

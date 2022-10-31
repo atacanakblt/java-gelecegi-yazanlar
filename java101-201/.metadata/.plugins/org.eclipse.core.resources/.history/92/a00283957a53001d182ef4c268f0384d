@@ -1,0 +1,18 @@
+package methodDefinition;
+
+public class Main {
+
+	// Bir bloğu statik olarak işaretlersek başka bir statik blokta direk çağırabiliriz.
+	public static void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	public static void main(String[] args) {
+
+		/* Main driver = new Main();
+		driver.merhaba();*/
+		
+		merhaba();
+	}
+
+}

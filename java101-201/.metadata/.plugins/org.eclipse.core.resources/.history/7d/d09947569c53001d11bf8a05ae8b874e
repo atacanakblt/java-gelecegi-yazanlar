@@ -1,0 +1,14 @@
+package memberVariables2;
+
+public class Player {
+
+	int health = 100;
+
+	void life() {
+		health = 100;
+	}
+
+	void coup() {
+		health--;
+	}
+}

@@ -1,0 +1,23 @@
+package pojoClasses;
+
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Employee employee = new Employee();
+		employee.setFirstName("Mehmet");
+		employee.setFirstName("Bulut");
+		employee.setSalary(10000);
+		employee.setStartDateOfWork(new Date());
+		
+		System.out.println(employee.getFirstName());
+		System.out.println(employee.getLastName());
+		System.out.println(employee.getSalary());
+		System.out.println(employee.getStartDateOfWork());
+
+		
+	}
+
+}

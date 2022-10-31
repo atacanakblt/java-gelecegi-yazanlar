@@ -1,0 +1,21 @@
+package ifBlockLab;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner();
+		System.out.print("Lütfen öğrencinin aldığı notu giriniz");
+		int note = scanner.nextInt();
+		
+		if(note>=90 && note<=100) {
+			System.out.println("Dersi AA ile geçtiniz");
+		}else if(note>=85 && note<90) {
+			System.out.println("Dersi BA ile geçtiniz");
+
+		}
+	}
+
+}

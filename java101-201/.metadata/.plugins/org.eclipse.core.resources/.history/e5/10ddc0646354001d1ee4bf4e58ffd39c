@@ -1,0 +1,11 @@
+package finalExample;
+
+public class Ogrenci {
+
+	private final int numara = 10;
+
+	public int getNumara() {
+		return numara;
+	}
+
+}

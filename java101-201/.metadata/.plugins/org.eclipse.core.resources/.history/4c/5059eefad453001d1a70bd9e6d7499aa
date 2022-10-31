@@ -1,0 +1,17 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+//		Shape shape = new Shape();
+
+		Square square = new Square();
+		square.setPosX(10);
+		square.setPosY(25);
+		square.setColor("Kırmızı");
+		square.setSideLength(10);
+		
+		
+	}
+
+}

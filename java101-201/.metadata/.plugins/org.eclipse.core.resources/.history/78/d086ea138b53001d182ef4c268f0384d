@@ -1,0 +1,22 @@
+package constructorMethods;
+
+public class Main {
+
+	int x;
+
+	public Main() {
+		System.out.println("ctor");
+		x = 20;
+
+	}
+
+	public static void main(String[] args) {
+
+		/*
+		 * Main driver = new Main();
+		 *  System.out.println(driver.x);
+		 */
+
+	}
+
+}

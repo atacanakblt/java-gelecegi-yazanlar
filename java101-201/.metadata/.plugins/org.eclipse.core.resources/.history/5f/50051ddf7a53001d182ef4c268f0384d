@@ -1,0 +1,28 @@
+package methodDefinition;
+
+public class Main {
+
+	// Bir bloğu statik olarak işaretlersek başka bir statik blokta direk çağırabiliriz.
+	public static void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	public int topla(int x, int y) {
+		int toplam = x+y;
+		return toplam;
+	}
+	
+	public static void main(String[] args) {
+
+		/* Main driver = new Main();
+		driver.merhaba();  */
+		
+		//merhaba();
+		
+		Main driver = new Main();
+		int sonuc = driver.topla(2, 3);
+		System.out.println(sonuc);
+
+	}
+
+}

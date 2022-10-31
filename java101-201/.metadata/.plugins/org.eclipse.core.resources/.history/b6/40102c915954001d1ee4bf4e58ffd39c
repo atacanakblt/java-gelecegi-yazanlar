@@ -1,0 +1,41 @@
+package polymorphism3;
+
+public class Employee {
+	
+	private String isim;
+	private String gorev;
+	private int maas;
+	
+	public Employee(String i, String g, int m) {
+		isim = i;
+		gorev = g;
+		maas = m;
+	}
+
+	public String getIsim() {
+		return isim;
+	}
+
+	public void setIsim(String i) {
+		isim = i;
+	}
+
+	public String getGorev() {
+		return gorev;
+	}
+
+	public void setGorev(String g) {
+		gorev = g;
+	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+	
+	
+
+}

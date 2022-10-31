@@ -1,0 +1,16 @@
+package classesAndObjects;
+
+public class Circle {
+	
+	double x;
+	double y;
+	double r;
+	
+	double perimeterCalculate() {
+		return 2*3.14*r;
+	}
+
+	double areaCalculate() {
+		return 3.14*r*r;
+	}
+}

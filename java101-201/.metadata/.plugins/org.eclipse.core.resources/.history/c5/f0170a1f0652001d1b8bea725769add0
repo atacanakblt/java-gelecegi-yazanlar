@@ -1,0 +1,24 @@
+package aritmethicOperators;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int x = 10;
+		int y = 20;
+		
+		// Değişken Tanımlaması:
+		int a = 25, b = 3, c = 17;
+		String x = "Web Sitemiz: ", y = "gelecegiyazanlar.turkcell.com.tr";
+		// Stringlerde Ekleme Operatörünü Kullanırsak:
+		System.out.println("Merhaba!\n" + (x + y));
+		// Ekleme ve Çıkarma Operatörleri:
+		System.out.println("A + B = " + (a + b) + "\nA - C = " + (a - c));
+		// Çarpma ve Bölme Operatörleri:
+		System.out.println("A * B = " + (a * b) + "\nA / 5 = " + (a / 5));
+		// Mod Alma Operatörü:
+		System.out.println("C % B = " + (c % b));
+
+	}
+
+}

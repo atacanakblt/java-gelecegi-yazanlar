@@ -1,0 +1,9 @@
+package superExample;
+
+public class Ogrenci extends Kisi {
+	
+	public Ogrenci(String i) {
+		super(i);
+	}
+
+}

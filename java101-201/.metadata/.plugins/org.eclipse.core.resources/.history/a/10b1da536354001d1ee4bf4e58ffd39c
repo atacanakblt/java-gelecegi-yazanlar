@@ -1,0 +1,7 @@
+package finalExample;
+
+public class Ogrenci {
+	
+	private final int numara = 10;
+
+}

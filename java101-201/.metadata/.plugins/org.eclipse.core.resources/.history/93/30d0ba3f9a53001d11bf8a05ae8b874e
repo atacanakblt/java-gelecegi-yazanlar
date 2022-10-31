@@ -1,0 +1,16 @@
+package memberVariables;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Bicycle bicycle = new Bicycle();
+		bicycle.speed = 10;
+		bicycle.gear = 18;
+		
+		bicycle.
+
+
+	}
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Months"/>
+    <fullyQualifiedTypeName name="java.time.DayOfWeek"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="methodDefinition.calculator"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="classesAndObjects.Circle"/>
+    <fullyQualifiedTypeName name="memberVariables.Bicycle"/>
+    <fullyQualifiedTypeName name="classesLab.TelephoneType"/>
+    <fullyQualifiedTypeName name="example.Car"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="pojoClasses.Employee"/>
+    <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="Shape"/>
+    <fullyQualifiedTypeName name="polymorphism.Animal"/>
+    <fullyQualifiedTypeName name="polymorphism2.Shape"/>
+    <fullyQualifiedTypeName name="polymorphism3.Employee"/>
+    <fullyQualifiedTypeName name="polymorphismLab.MsSQLConnection"/>
+    <fullyQualifiedTypeName name="polymorphismLab.MySQLConnection"/>
+    <fullyQualifiedTypeName name="polymorphismLab.OracleDbConnection"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="polymorphismLab.DbConnection"/>
+    <fullyQualifiedTypeName name="finalExample.Ogrenci"/>
+    <fullyQualifiedTypeName name="finalExample.UnivOgrenci"/>
+    <fullyQualifiedTypeName name="superExample.Kisi"/>
+    <fullyQualifiedTypeName name="labSuperFinalThis.YolcuTasimaAraci"/>
+    <fullyQualifiedTypeName name="labSuperFinalThis.YukTasimaAraci"/>
+    <fullyQualifiedTypeName name="labSuperFinalThis.Araba"/>
+    <fullyQualifiedTypeName name="interfaceExample.Pilot"/>
+    <fullyQualifiedTypeName name="interfaceExample.Surebilir"/>
+    <fullyQualifiedTypeName name="interfaceExample2.Meyve"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="methodOverloading.HesapMakinesi"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+</qualifiedTypeNameHistroy>

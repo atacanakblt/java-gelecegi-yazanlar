@@ -1,0 +1,15 @@
+package staticVariables;
+
+public class Main {
+
+	static int i;
+
+	static {
+		i=20;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

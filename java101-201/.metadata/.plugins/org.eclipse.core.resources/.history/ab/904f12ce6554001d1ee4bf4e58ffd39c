@@ -1,0 +1,12 @@
+package superExample;
+
+public class Ogrenci extends Kisi {
+	
+	private int numara;
+	
+	public Ogrenci(String i, int n) {
+		super(i);
+		numara = n;
+	}
+
+}

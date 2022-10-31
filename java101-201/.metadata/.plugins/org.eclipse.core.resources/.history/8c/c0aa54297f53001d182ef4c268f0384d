@@ -1,0 +1,16 @@
+package staticNormalMethods;
+
+public class Main {
+
+	private int x = 20;
+	
+	public static void main(String[] args) {
+
+		
+	}
+	
+	public void normalMethod() {
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package methodOverloadingLab;
+
+import java.util.Date;
+
+public class Calisan {
+
+	private String isim;
+	private String bolum;
+	private Date iseGirişTarihi;
+	
+	public String getIsim() {
+		return isim;
+	}
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	public String getBolum() {
+		return bolum;
+	}
+	public void setBolum(String bolum) {
+		this.bolum = bolum;
+	}
+	public Date getIseGirişTarihi() {
+		return iseGirişTarihi;
+	}
+	public void setIseGirişTarihi(Date iseGirişTarihi) {
+		this.iseGirişTarihi = iseGirişTarihi;
+	}
+	
+	
+	
+}

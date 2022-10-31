@@ -1,0 +1,45 @@
+package stringExample;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// String
+
+				// charAt >> Verilen sıradaki karakteri verir
+
+				// toUpperCase / toLowerCase >> Tüm harfleri büyütür / Tüm harfleri küçültür
+
+				// replace >> Harfleri değiştirir
+
+				// String Uzunluğu >> Length
+
+				// String Birleştirme >> Concatenation
+
+				// String toString >> String'e dönüştürür
+
+				// subString >> Yeni bir string döndürür
+
+				// concat >> Birleştirir
+
+				// replace >> Karakterleri yer değiştirir
+
+				// trim >> Space'i siler
+
+				String firstName = "John";
+				System.out.println(firstName.charAt(1));
+				System.out.println(firstName.toUpperCase());
+				System.out.println(firstName.toLowerCase());
+				System.out.println(firstName.replace('o', 'a'));
+				System.out.println(firstName.length());
+				System.out.println(firstName.substring(1));
+
+				System.out.println(firstName);
+
+			}
+
+		
+
+}
+
+

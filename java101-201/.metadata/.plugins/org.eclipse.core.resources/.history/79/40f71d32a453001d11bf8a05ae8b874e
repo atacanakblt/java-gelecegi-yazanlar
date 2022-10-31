@@ -1,0 +1,27 @@
+package classesLab;
+
+public class Pencil {
+
+	String brand;
+	String type;
+	boolean refillable;
+	boolean erasable;
+
+	void yaz(String text) {
+		System.out.println(text);
+		
+	}
+
+	void refill() {
+		if (refillable) {
+
+		}
+	}
+
+	void delete() {
+		if (erasable) {
+
+		}
+
+	}
+}

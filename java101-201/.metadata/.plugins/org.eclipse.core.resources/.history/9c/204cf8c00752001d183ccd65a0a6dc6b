@@ -1,0 +1,39 @@
+package arithmeticOperatorsLab;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int x =10 ;
+		float y = 20;
+		System.out.println(x+y);
+		System.out.println(x-y);
+		System.out.println(x*y);
+		System.out.println(x/y);
+		System.out.println(8%3);
+		
+		int w = 10;
+		//w = w+2;
+		w+=2;
+		System.out.println(a);
+
+		int q = 12;
+		System.out.println(++q);
+		System.out.println(q);
+
+		// Değişken Tanımlaması:
+		int a=25,b=3,c=17;
+		String x="Aritmetik : ",y="Operatörler";
+		// Stringlerde Ekleme Operatörünü Kullanırsak:
+		System.out.println("Merhaba!\n"+(x+y));
+		// Ekleme ve Çıkarma Operatörleri:
+		System.out.println("A + B = "+ (a+b)+"\nA - C = "+(a-c));
+		// Çarpma ve Bölme Operatörleri:
+		System.out.println("A * B = "+ (a*b)+"\nA / 5 = "+(a/5));
+		// Mod Alma Operatörü:
+		System.out.println("C % B = "+(c%b));
+
+
+	}
+
+}

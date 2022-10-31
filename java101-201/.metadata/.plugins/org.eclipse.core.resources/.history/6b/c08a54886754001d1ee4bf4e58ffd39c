@@ -1,0 +1,16 @@
+package thisExample;
+
+import java.util.Date;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Calisan calisan = new Calisan();
+		calisan.setIsim("Ali Can");
+		calisan.setMaas(15000);
+		calisan.setIseBaslamaTarihi(new Date());
+		calisan.yazdir();
+	}
+
+}

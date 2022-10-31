@@ -1,0 +1,17 @@
+package constructorMethods;
+
+public class Main {
+	
+	public Main() {
+		System.out.println("ctor");
+
+		
+	}
+
+	public static void main(String[] args) {
+
+		Main driver = new Driver();
+		
+	}
+
+}

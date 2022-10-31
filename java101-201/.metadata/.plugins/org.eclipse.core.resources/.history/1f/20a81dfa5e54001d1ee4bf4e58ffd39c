@@ -1,0 +1,24 @@
+package polymorphismLab;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		/*DbConnection connection = new DbConnection();
+		connection.openConnection();
+		connection.executeQuery("SELECT * FROM student");
+		connection.closeConnection();
+		
+		MySQLConnection mySQLConnection = new MySQLConnection();
+		mySQLConnection.openConnection();
+		mySQLConnection.executeQuery("SELECT * FROM student");
+		mySQLConnection.closeConnection();
+		
+		MsSQLConnection msSQLConnection = new MsSQLConnection();
+		msSQLConnection.openConnection();
+		msSQLConnection.executeQuery("SELECT * FROM student");
+		msSQLConnection.closeConnection();*/
+
+	}
+
+}

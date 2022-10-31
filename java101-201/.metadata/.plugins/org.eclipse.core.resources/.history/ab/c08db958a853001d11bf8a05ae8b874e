@@ -1,0 +1,9 @@
+package accessControl;
+
+public class Student {
+	
+	int number;
+	String firstName;
+	String lastName;
+
+}

@@ -1,0 +1,24 @@
+package classesLab;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		Pencil pencil = new Pencil();
+		pencil.brand = "A Marka";
+		pencil.type = "Kurşun kalem";
+		pencil.refillable = false;
+		pencil.erasable = true;
+
+		pencil.write("Merhaba");
+		pencil.refill();
+		pencil.delete();
+		
+		Pencil pen = new Pencil();
+		pen.brand = "C Marka";
+		pen.type = "Dolma kalem";
+		pen.refillable = true;
+		pen.erasable = false;
+	}
+
+}

@@ -1,0 +1,23 @@
+package interfaceExample2;
+
+public class Elma implements Meyve {
+
+	@Override
+	public void meyveAdi() {
+		
+	}
+
+	@Override
+	public void alinanKg(double n) {
+		
+	}
+
+	@Override
+	public double fiyat() {
+		return n*kgFiyat;
+	}
+	
+	
+
+	
+}

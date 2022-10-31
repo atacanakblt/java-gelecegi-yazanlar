@@ -1,0 +1,29 @@
+package methodsLab;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Ogrenci ogrenci = new Ogrenci();
+		ogrenci.firstName = "Mehmet";
+		ogrenci.age = 8;
+
+		Main driver = new Main();
+		driver.ogrenciBilgileri(ogrenci);
+		
+		System.out.println(ogrenci.firstName);
+		System.out.println(ogrenci.age);
+
+
+	}
+
+	public void ogrenciBilgileri(final Ogrenci ogrenci) {
+		
+		ogrenci.firstName = "Kemal";
+		
+		System.out.println(ogrenci.firstName);
+		System.out.println(ogrenci.age);
+
+	}
+
+}

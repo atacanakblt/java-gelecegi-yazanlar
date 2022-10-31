@@ -1,0 +1,35 @@
+package classesAndObjects;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Circle circle;
+		circle = new Circle();
+		circle.x=10.0;
+		circle.y=20.0;
+		circle.r=3.0;
+		
+		System.out.println(circle.x);
+		System.out.println(circle.y);
+		System.out.println(circle.r);
+
+		double area = circle.areaCalculate();
+		double perimeter = circle.perimeterCalculate();
+		
+		System.out.println(area);
+		System.out.println(perimeter);
+		
+		Circle circle2 = new Circle();
+		circle2.r = 30;
+		System.out.println(circle2.areaCalculate());
+		System.out.println(circle2.perimeterCalculate());
+		
+		Circle circle3 = circle2;
+		circle3.r = 40;
+		
+
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package methodsLab;
+
+public class Ogrenci {
+	
+	String isim;
+	int yas;
+
+}

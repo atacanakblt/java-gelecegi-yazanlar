@@ -1,0 +1,29 @@
+package extendsLab;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Person person = new Person();
+		person.setFirstName("Ahmet");
+
+		System.out.println(person.getFirstName());
+
+		Student student = new Student();
+		student.setFirstName("Ali Can");
+		student.setLesson("Math");
+
+		System.out.println(student.getFirstName());
+
+		UniversityStudent universityStudent = new UniversityStudent();
+		universityStudent.setFirstName("Ahmet");
+		universityStudent.setLesson("Software");
+		universityStudent.setCampus("Kalkınma");
+		System.out.println(universityStudent.getFirstName());
+		System.out.println(universityStudent.getLesson());
+		System.out.println(student.getFirstName());
+
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package staticVariables;
+
+public class Main {
+
+	static {
+		System.out.println("Statik Blok");
+	}
+	public static void main(String[] args) {
+
+		
+	}
+
+}

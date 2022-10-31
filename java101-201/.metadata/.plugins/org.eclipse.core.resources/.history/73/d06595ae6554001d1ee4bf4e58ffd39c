@@ -1,0 +1,5 @@
+package superExample;
+
+public class Ogrenci extends Kisi {
+
+}

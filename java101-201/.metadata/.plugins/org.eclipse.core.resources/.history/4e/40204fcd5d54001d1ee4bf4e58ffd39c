@@ -1,0 +1,9 @@
+package polymorphismLab;
+
+public class DbConnection {
+
+	public void openConnection() {
+		System.out.println("Veri tabanı bağlantısı açıldı");
+
+	}
+}

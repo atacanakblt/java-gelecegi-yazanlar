@@ -1,0 +1,16 @@
+package accessControl;
+
+public class Student {
+
+	public int number = 7;
+	public String firstName;
+	public String lastName;
+	public int age;
+
+	public void printInformation() {
+		System.out.println("FirstName : " + ad);
+		System.out.println("LastName + ");
+
+
+	}
+}

@@ -1,0 +1,34 @@
+package polymorphismLab;
+
+import java.util.Scanner;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		/*DbConnection connection = new DbConnection();
+		connection.openConnection();
+		connection.executeQuery("SELECT * FROM student");
+		connection.closeConnection();
+		
+		MySQLConnection mySQLConnection = new MySQLConnection();
+		mySQLConnection.openConnection();
+		mySQLConnection.executeQuery("SELECT * FROM student");
+		mySQLConnection.closeConnection();
+		
+		MsSQLConnection msSQLConnection = new MsSQLConnection();
+		msSQLConnection.openConnection();
+		msSQLConnection.executeQuery("SELECT * FROM student");
+		msSQLConnection.closeConnection();*/
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Database tipi seçiniz [1 (MsSQL),2 (MySQL), 3(Oracle SQL)]:");
+		int dbType = scanner.nextInt();
+		
+		DbConnection dbConnection = new OracleDbConnection();
+		dbConnection.openConnection();
+		dbConnection.executeQuery("Select * From student");
+		dbConnection.closeConnection();
+	}
+
+}

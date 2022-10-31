@@ -1,0 +1,12 @@
+package pojoClasses;
+
+public class Square {
+
+	private int x;
+	private int y;
+	private int length;
+	
+	public int getX() {
+		return x;
+	}
+}

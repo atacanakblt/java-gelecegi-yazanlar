@@ -1,0 +1,11 @@
+package labSuperFinalThis;
+
+public class YolcuTasimaAraci extends Arac {
+	
+	private int kapasite;
+	
+	public YolcuTasimaAraci(String plaka, String marka) {
+		super(plaka,marka);
+	}
+
+}

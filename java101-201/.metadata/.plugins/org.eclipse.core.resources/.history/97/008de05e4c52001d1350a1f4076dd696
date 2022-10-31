@@ -1,0 +1,31 @@
+package ifBlock;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		int number = 10;
+//		boolean result = number > 0;
+//		if (result) {
+//			System.out.println("Number pozitif bir sayıdır");
+//
+//		} else {
+//			System.out.println("Number negatif bir sayıdır");
+//
+//
+//		}
+//		System.out.println("Burası her zaman çalışacak");
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Lütfen bir sayı giriniz");
+		int number = scanner.nextInt();
+		if (number %2 == 0) {
+			System.out.println("Çift bir sayı girdiniz");
+		} else {
+			System.out.println("Tek bir sayı girdiniz");
+		}
+	}
+
+}

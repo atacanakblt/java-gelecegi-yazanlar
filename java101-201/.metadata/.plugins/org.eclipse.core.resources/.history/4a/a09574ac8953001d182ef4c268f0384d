@@ -1,0 +1,17 @@
+package methodsLab;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		
+	}
+	
+	public void ogrenciBilgileri(Ogrenci ogrenci) {
+		System.out.println(ogrenci.firstName);
+		System.out.println(ogrenci.age);
+
+
+	}
+
+}

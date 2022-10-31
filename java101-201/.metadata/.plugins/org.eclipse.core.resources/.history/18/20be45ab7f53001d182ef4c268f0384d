@@ -1,0 +1,23 @@
+package staticNormalMethods;
+
+public class Main {
+
+	private static int x = 20;
+
+	public static void main(String[] args) {
+
+		// Main driver = new Main();
+		// driver.normalMethod();
+
+		Main.staticMetot();
+	}
+
+	public void normalMethod() {
+		System.out.println(x);
+	}
+
+	public static void staticMetot() {
+		System.out.println(x);
+	}
+
+}

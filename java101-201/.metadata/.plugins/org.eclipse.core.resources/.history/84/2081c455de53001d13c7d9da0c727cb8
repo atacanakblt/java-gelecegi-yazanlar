@@ -1,0 +1,6 @@
+package extendsConstructorMethods;
+
+public class B extends A {
+
+	
+}

@@ -1,0 +1,14 @@
+package expressions;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Java da anlamlı en küçük kod bloklarıdır.
+		// Decleration tanımlanan bir değişkene ilk değerini atamaktır
+		int i ; // Expression
+		int x = 10; // Decleration
+		
+	}
+
+}

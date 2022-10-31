@@ -1,0 +1,29 @@
+package interfaceExample2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Çilek fiyatı hesaplamak için 1\n"
+				+ "Armut fiyatı hesaplamak için 2\n"
+				+ "Elma fiyatı hesaplamak için 3\n"
+				+ "Karpuz fiyatı hesaplamak için 4\n"
+				+ "'e basınız ");
+		int y = scanner.nextInt();
+		
+		switch(y) {
+		case 1:
+			double n;
+			Cilek cilek = new Cilek();
+			cilek.meyveAdi();
+			System.out.println("Kaç kg çilek alındı?");
+			n = scanner.nextDouble();
+			cilek.alinanKg(n);
+			System.out.println("Çilek fiyat toplamı = " + cilek.fiyat());
+		}
+	}
+
+}

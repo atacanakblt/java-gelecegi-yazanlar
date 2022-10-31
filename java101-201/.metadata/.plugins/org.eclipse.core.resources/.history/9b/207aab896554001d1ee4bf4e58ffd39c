@@ -1,0 +1,7 @@
+package superExample;
+
+public class Kisi {
+	
+	private String isim;
+
+}

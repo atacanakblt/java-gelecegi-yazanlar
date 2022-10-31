@@ -1,0 +1,24 @@
+package accessControl;
+
+import example.Car;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Student student = new Student();
+//		/*
+//		 * student.firstName = "Atacan"; 
+//		 * student.lastName = "Akbulut"; 
+//		 * student.number = 7;
+//		 * 
+//		 */
+//	
+//		student.printNumber();
+		
+		Car car = new Car();
+		car.brand = "BMV";
+		
+	}
+
+}

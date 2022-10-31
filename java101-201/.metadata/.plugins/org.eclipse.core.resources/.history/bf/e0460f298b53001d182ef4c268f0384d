@@ -1,0 +1,15 @@
+package constructorMethods;
+
+public class Student {
+	
+	String firstName;
+	String lastName;
+	int yas;
+	
+	Student(){
+		firstName = "Bilinmeyen";
+		lastName = "Bilinmeyen";
+		yas = -1;
+	}
+
+}

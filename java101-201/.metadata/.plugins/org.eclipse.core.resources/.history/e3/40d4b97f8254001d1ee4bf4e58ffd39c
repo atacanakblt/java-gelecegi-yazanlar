@@ -1,0 +1,14 @@
+package methodOverloadingLab;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Calisan calisan1 = new Calisan();
+		Calisan calisan2 = new Calisan("IT");
+		Calisan calisan3 = new Calisan("IT","Ali Can");
+		Calisan calisan4 = new Calisan("IT");
+
+	}
+
+}

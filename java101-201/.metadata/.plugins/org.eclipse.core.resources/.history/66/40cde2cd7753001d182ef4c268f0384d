@@ -1,0 +1,19 @@
+package methodsNaming;
+
+public class Main {
+
+	private void helloWorld() {
+		System.out.println("Hello World");
+	}
+	
+	private int topla(int x , int y) {
+		
+	}
+	public static void main(String[] args) {
+		
+		new Main().helloWorld();
+	
+
+	}
+
+}

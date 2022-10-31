@@ -1,0 +1,23 @@
+package polymorphism2;
+
+public class Square extends Shape {
+
+	private int kenarUzunlugu;
+
+	public Kare(int u) {
+		kenarUzunlugu = u;
+	}
+	
+	public int getKenarUzunlugu() {
+		return kenarUzunlugu;
+	}
+
+	public void setKenarUzunlugu(int u) {
+		this.kenarUzunlugu = u;
+	}
+
+	public void alan() {
+
+	}
+
+}

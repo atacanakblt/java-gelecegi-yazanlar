@@ -1,0 +1,14 @@
+package methodDefinition;
+
+public class Main {
+
+	public void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	public static void main(String[] args) {
+
+		
+	}
+
+}

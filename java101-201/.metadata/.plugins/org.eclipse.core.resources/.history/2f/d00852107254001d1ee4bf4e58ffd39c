@@ -1,0 +1,23 @@
+package interfaceExample2;
+
+public class Armut implements Meyve {
+
+	@Override
+	public void meyveAdi() {
+		System.out.println("Armut");
+
+	}
+
+	@Override
+	public void alinanKg(double n) {
+		
+	}
+
+	@Override
+	public double fiyat() {
+		return 0;
+	}
+	
+	
+
+}

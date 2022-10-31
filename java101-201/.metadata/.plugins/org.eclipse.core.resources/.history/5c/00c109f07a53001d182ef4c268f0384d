@@ -1,0 +1,34 @@
+package methodDefinition;
+
+import java.util.Scanner;
+
+public class Main {
+
+	// Bir bloğu statik olarak işaretlersek başka bir statik blokta direk çağırabiliriz.
+	public static void merhaba() {
+		System.out.println("Merhaba");
+	}
+	
+	public int topla(int x, int y) {
+		int toplam = x+y;
+		return toplam;
+	}
+	
+	public static void main(String[] args) {
+
+		/* Main driver = new Main();
+		driver.merhaba();  */
+		
+		//merhaba();
+		
+		Main driver = new Main();
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		int sonuc = driver.topla(scanner.nextInt(), scanner.nextInt());
+		System.out.println(sonuc);
+
+	}
+
+}

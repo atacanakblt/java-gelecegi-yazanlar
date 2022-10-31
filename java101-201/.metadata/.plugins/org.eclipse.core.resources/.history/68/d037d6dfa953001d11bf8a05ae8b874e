@@ -1,0 +1,12 @@
+package accessControl;
+
+public class Student {
+	
+	private int number = 7;
+	private String firstName;
+	String lastName;
+
+	private void printNumber() {
+		System.out.println(number);
+	}
+}

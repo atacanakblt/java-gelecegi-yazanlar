@@ -1,0 +1,8 @@
+package memberVariables;
+
+public class Bicycle {
+	
+	int vites;
+	int hız;
+
+}

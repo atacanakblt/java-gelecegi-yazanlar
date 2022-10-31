@@ -1,0 +1,34 @@
+package classesLab;
+
+public class Telephone {
+
+	TelephoneType type;
+	String brand;
+	String model;
+	boolean wifi;
+	boolean mobileData;
+
+	boolean isThereACall;
+
+	void call(String phoneNumber) {
+		System.out.println(phoneNumber);
+		isThereACall = true;
+
+	}
+
+	void endCall() {
+		if (isThereACall) {
+			System.out.println("Call ended");
+
+		}
+
+	}
+
+	void sendMessage() {
+		if (mobileData || wifi) {
+			System.out.println("Message sent");
+
+		}
+
+	}
+}

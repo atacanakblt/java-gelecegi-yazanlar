@@ -1,0 +1,7 @@
+package extendsLab;
+
+public class UniversityStudent extends Student {
+	
+	private String campus;
+
+}

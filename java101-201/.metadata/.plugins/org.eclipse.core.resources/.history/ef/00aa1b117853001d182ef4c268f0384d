@@ -1,0 +1,25 @@
+package methodsNaming;
+
+public class Main {
+
+	private void helloWorld() {
+		System.out.println("Hello World");
+	}
+
+	private int topla(int x, int y) {
+		int toplam = x + y;
+		return toplam;
+	}
+
+	public static void main(String[] args) {
+
+		new Main().helloWorld();
+		
+		Main main = new Main();
+		int sonuc = main.topla(20, 30);
+		
+		System.out.println(sonuc);
+
+	}
+
+}

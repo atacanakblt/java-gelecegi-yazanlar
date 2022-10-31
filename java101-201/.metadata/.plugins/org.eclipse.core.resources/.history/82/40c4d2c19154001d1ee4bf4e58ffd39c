@@ -1,0 +1,11 @@
+package methodOverloadingLab2;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+		Kisi kisi = new Kisi("1241241241","Mehmet")
+				
+	}
+
+}
